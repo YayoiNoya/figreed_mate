@@ -30,7 +30,6 @@ const Footer = () => (
       query FooterQuery {
         contentfulAbout {
           name
-          roles
           socialLinks {
             id
             url
@@ -49,9 +48,11 @@ const Footer = () => (
             <Fade left>
               <TextFooter fontSize={[2, 3]}>
                 <span>&copy;{`2019 ${name} - Powered by `}</span>
-                <Link href="https://www.gatsbyjs.org/">Gatsby</Link>
-                <span> and </span>
+                <Link href="https://www.gatsbyjs.org/">GatsbyJS</Link>
+                <span> , </span>
                 <Link href="https://www.contentful.com/" mr={1}>Contentful</Link>
+                <span> and </span>
+                <Link href="https://www.netlify.com/" mr={1}>Netlify</Link>
               </TextFooter>
             </Fade>
             <Flex>

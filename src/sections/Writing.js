@@ -104,7 +104,7 @@ const MorePosts = ({ username, name, number }) => (
       style={{ height: '100%' }}
     >
       <Box>
-        <EllipsisHeading fontSize={5} my={2}>
+        <EllipsisHeading fontSize={6} my={2}>
           Hooray! &nbsp;
           <span role="img" aria-label="party">
             🎉
