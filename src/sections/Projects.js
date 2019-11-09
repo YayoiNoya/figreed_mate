@@ -50,7 +50,7 @@ const MEDIA_QUERY_SMALL = '@media (max-width: 400px)';
 const Title = styled(Text)`
   font-size: 16px;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: none;
   display: table;
   border-bottom: ${props => props.theme.colors.primaryLight} 5px solid;
 `;
