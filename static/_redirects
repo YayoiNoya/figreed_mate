@@ -1,0 +1,5 @@
+http://figreed.netlify.com/* https://www.figreed.com/:splat 301!
+https://figreed.netlify.com/* https://www.figreed.com/:splat 301!
+http://www.figreed.com/* https://www.figreed.com/:splat 301!
+http://figreed.com/* https://www.figreed.com/:splat 301!
+https://figreed.com/* https://www.figreed.com/:splat 301!
